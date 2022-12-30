@@ -145,14 +145,14 @@ const Pages = () => {
 
   let effren = 0;
 
-//   useEffect(() => {
-//     if (effren === 0) {
-//       fun1()
-//     }
-//     effren = 1;
+  useEffect(() => {
+    if (effren === 0) {
+      fun1()
+    }
+    effren = 1;
 
 
-//   }, [])
+  }, [])
 
 
 
