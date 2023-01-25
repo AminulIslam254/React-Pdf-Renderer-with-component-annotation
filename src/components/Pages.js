@@ -224,6 +224,7 @@ const Pages = () => {
         <div style={{ width: "70%", height: "720px", border: "5px solid black", float: "right" }}
           onMouseDown={handleMouseDown1}
           onMouseMove={(isDown) ? handleMouseOver1 : () => { }}
+          onMouseUp={handleMouseUp1}
         >
 
           <Viewer fileUrl={var1} />
