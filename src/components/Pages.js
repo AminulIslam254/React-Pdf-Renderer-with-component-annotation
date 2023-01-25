@@ -33,7 +33,6 @@ const useStyles = makeStyles((theme) => ({
   canvascontainerrect: {
     height: 500,
     width: 500,
-    border: "2px solid #000",
     marginLeft: "100px",
     marginTop: "100px",
   }
@@ -160,7 +159,7 @@ const Pages = () => {
 
   return (
     <>
-      <div style={{ border: "5px solid green", width: "29%", height: "720px", position: "absolute", display: "flex", flexWrap: "wrap" }}>
+      <div style={{  width: "29%", height: "720px", position: "absolute", display: "flex", flexWrap: "wrap" }}>
 
         <div style={{ border: "5px solid red", width: "100%", height: "30%", }}>
           <h2>Labels</h2>
@@ -190,11 +189,11 @@ const Pages = () => {
         </div>
 
 
-        <div style={{ border: "5px solid red", width: "100%", height: "68%" }}>
+        <div style={{  width: "100%", height: "68%" }}>
           <h2>BOXES</h2>
 
 
-          <div style={{ border: "5px solid pink", height: "400px", width: "427px", overflow: "hidden", overflowY: "scroll" }}>
+          <div style={{ height: "400px", width: "427px", overflow: "hidden", overflowY: "scroll" }}>
             {
               labeldisele.map((item, index) => {
                 return (
